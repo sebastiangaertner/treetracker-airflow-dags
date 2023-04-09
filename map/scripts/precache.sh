@@ -13,7 +13,7 @@ request(){
         curl -s -o /dev/null $url && echo "Done at `date`"
     done
 }
-request 2 15
+request 2 15 wallet=Catholic.Relief.Services
 request 2 15 map_name=freetown
 request 2 15 map_name=TheHaitiTreeProject
 request 2 15 map_name=addis
